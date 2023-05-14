@@ -1,0 +1,80 @@
+/* 
+    Building Blocks
+
+    selector {
+        [ DECLARATION BLOCK]
+        property: value;
+    }
+*/
+/* body { 
+    background-color: darkgoldenrod
+} */
+
+nav {
+    background-color: #d2d2d2;
+    /*
+        - preset color: red, blue, yellow, etc.
+        - rgb & rgba (red, green, blue, alpha)
+            - alpha determines transparency
+            - ex: rbga(200, 15, 100, 0.5)
+            - each color scales from 0 - 255
+        - Hexidecimal
+            - 16 digit: 0-9, A-F
+            - #d2f
+    */
+    overflow: hidden;
+}
+
+/* nav {
+    background-color: green;
+} */
+
+.btn {    
+    /*  Periods indicate class ex ".btn"*/
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    /* The padding is being read as: (Top) 14px (Right) 16px (Bottom) 14px (Left) 16px; element sizes are read in clockwise fashion */
+    /* Another example "padding: 14px;" <-- all sides are 14px */
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+#home {
+    /* Hash (#) indicate ID */
+    float: left;
+    color: white;
+}
+
+div {
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    padding: 100px 100px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+nav .btn {
+    /* Points to a nav and ANY class within it, or children of, name "btn" */
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+div .paragraph > p {
+    color:red;
+}
+
+.paragraph + div {
+    color:purple;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a:active {
+    color: purple;
+    text-shadow: 2px 2px 2px rgb(255,255,255);
+}
