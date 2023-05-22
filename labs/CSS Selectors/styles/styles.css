@@ -1,0 +1,61 @@
+html {
+    background-color: lightblue;
+}
+
+body {
+    position: center;
+    margin: 35px;
+}
+
+.header {
+    display: block;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-color: black;
+    background-color: lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    padding: 1px;
+}
+
+.pic1 {
+    border: 1px solid;
+    border-color: black;
+    height: auto;
+    float: right;
+    border-right: none;
+    border-top: none;
+}
+
+.pic2 {
+    border: 1px solid;
+    border-color: black;
+    height: auto;
+    float: left;
+    border-top: none;
+    border-left: none;
+}
+
+p {
+    border: 1px solid;
+    border-color: black;
+    background-color: orange;
+    text: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.text1 {
+    border: 1px solid;
+    border-color: black;
+    background-color: orange;
+    text: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 7px;
+    font-size: medium;
+}
