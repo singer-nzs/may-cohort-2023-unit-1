@@ -1,0 +1,215 @@
+html {
+    background-color: lightblue;
+}
+
+body {
+    position: center;
+    margin: 35px;
+}
+
+.header {
+    display: block;
+    height: 100px;
+    width: 1185px;
+    font-size: xxx-large;
+    text-align: center;
+    padding-top: 50px;
+    border: 1px solid;
+    border-color: black;
+    background-color: lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header2 {
+    width: 500px;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-color: black;
+    background-color: lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    display: block;
+    position: bottom absolute;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 1184.75px;
+    height: 33px;
+    font-size: xx-large;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    background-color: lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background: gray;
+    border: 1px solid;
+    color: black;
+    position: absolute;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 1184.75px;
+    height: 39px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.home {
+    text-decoration: none;
+    float: left;
+    padding-left: 155px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about {
+    text-decoration: none;
+    float: left;
+    padding-left: 155px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about2 {
+    text-decoration: none;
+    float: left;
+    padding-left: 210px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.photos {
+    text-decoration: none;
+    float: left;
+    padding-left: 210px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.photos2 {
+    text-decoration: none;
+    float: right;
+    padding-right: 175px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.videos {
+    text-decoration: none;
+    float: right;
+    padding-right: 175px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.documents {
+    text-decoration: none;
+    float: right;
+    padding-right: 140px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    padding: 1px;
+}
+
+img {
+    border: 1px solid;
+    border-color: black;
+    height: auto;
+    width: 1200px;
+}
+
+#hero {
+    border: 1px solid;
+    border-color: black;
+    height: 350px;
+    width: 1185px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#gallery1 {
+    border: 1px solid;
+    border-color: black;
+    width: 300px;
+    margin-left: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#gallery2 {
+    border: 1px solid;
+    border-color: black;
+    width: 300px;
+    margin-left: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#gallery3 {
+    border: 1px solid;
+    border-color: black;
+    width: 300px;
+    margin-left: 50px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#gallery4 {
+    border: 1px solid;
+    border-color: black;
+    width: 300px;
+    margin-left: 50px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#gallery5 {
+    border: 1px solid;
+    border-color: black;
+    width: 300px;
+    margin-left: 40px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#gallery6 {
+    border: 1px solid;
+    border-color: black;
+    width: 300px;
+    margin-left: 40px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.grid-container {
+    display: grid;
+    position: center;
+    padding-bottom: 115px;
+    width: 200px;
+    grid-template-columns: repeat(3, 194%);
+    grid-template-rows: 43% 35% 35%;
+    column-gap: 10%;
+}
+
+p {
+    border: 1px solid;
+    border-color: black;
+    background-color: orange;
+    text: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
